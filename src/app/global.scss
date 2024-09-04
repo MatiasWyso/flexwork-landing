@@ -1,0 +1,63 @@
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: var(--bg-primary);
+  max-width: 1350px;
+  margin: auto;
+}
+
+
+
+
+:root {
+  --primary-color: #fafafa;
+  --second-color: #4DC5AC;
+  --third-color: #5148C0;
+  --default-color: #003912;
+  --default-color-light: #19aa64;
+
+
+  //% COLOR:
+  --card-dark: #1B1846;
+
+  //% CARD BG:
+
+
+
+  //% TEXT:
+  --text-primary: #9B9B9B;
+  --text-secondary: #fafafa;
+  --text-third: #5148C0;
+
+  //% BG:
+  --bg-primary: #000000;
+
+  //% BORDER:
+  --border-primary:#ffffff24;
+
+  //% FONT SIZE:
+  --font-size-extra-small: 0.8rem;
+  --font-size-small: 1.2rem;
+  --font-size-normal: 1.4rem;
+  --font-size-medium: 1.6rem;
+  --font-size-large: 2.4rem;
+
+  //% FONT WEIGHT:
+  --font-weight-small: light;
+  --font-weight-normal: normal;
+  --font-weight-medium: semibold;
+  --font-weight-large: bold;
+
+  //% GRADIENT:
+  --gradient-fivver: linear-gradient(180deg, var(--default-color) 36.72%, var(--default-color-light) 141.43%);
+  --gradient-card: linear-gradient(180deg, rgba(5,55,69,1) 70%, #014755 100%);
+}
+
+.wrap__app{
+ 
+}
