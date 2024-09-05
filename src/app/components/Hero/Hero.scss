@@ -1,5 +1,5 @@
 .hero__wrap {
-  height: 80vh;
+  height: 75vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,6 +12,9 @@
     gap: 1.2rem;
 
     .hero__title {
+     width: 100%;
+      
+
       h1 {
         font-size: 2.5rem;
         font-weight: 700;

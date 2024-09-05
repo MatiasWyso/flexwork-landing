@@ -2,7 +2,7 @@
 import scss from "./ButtonReflex.module.scss";
 
 const Button = () => {
-    return ( <button className={scss.btn}>suscribite</button> );
+    return ( <button className={scss.btn}>suscribete</button> );
 }
  
 export default Button;
