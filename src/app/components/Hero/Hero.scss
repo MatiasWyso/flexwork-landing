@@ -1,0 +1,59 @@
+.hero__wrap {
+  height: 80vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .hero__content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+
+    .hero__title {
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: white;
+      }
+    }
+
+    .hero__description {
+      width: 100%;
+      p {
+        font-size:var(--font-size-extra-small);
+        color: var(--text-primary);
+      }
+    }
+
+    .hero__button {
+      width: 100%;
+      button {
+        &:hover {
+        }
+      }
+    }
+  }
+
+  .hero__imagewrap {
+    width: 50%;
+  
+
+    div {
+      height: 100%;
+      width: 100%;
+      padding-top:2rem;
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      
+      object-fit: scale-down;
+      object-position: center;
+      width: 530px;
+      height: 450px;
+    }
+  }
+}

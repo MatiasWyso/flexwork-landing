@@ -7,7 +7,7 @@
 
 body {
   background: var(--bg-primary);
-  max-width: 1350px;
+  max-width: 1300px;
   margin: auto;
 }
 
@@ -55,7 +55,7 @@ body {
 
   //% GRADIENT:
   --gradient-fivver: linear-gradient(180deg, var(--default-color) 36.72%, var(--default-color-light) 141.43%);
-  --gradient-card: linear-gradient(180deg, rgba(5,55,69,1) 70%, #014755 100%);
+  --gradient-card:linear-gradient(180deg, rgba(27,24,70,1) 61%, rgba(51,38,85,1) 100%);
 }
 
 .wrap__app{
