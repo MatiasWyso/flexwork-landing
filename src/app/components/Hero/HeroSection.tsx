@@ -8,11 +8,11 @@ return (
         <div className="hero__content">
             <div className="hero__title">
                 <h1>Flexwork Upskilling to Placement
-                    Lorem ipsum dolor sit amet.
+                    Lorem ipsum
                 </h1>
             </div>
             <div className="hero__description">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquid dolor dolorum atque optio, eos quos quia laborum dolore aperiam natus incidunt fugiat impedit vitae autem voluptatum ea quaerat voluptatem.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquid dolor dolorum atque optio, eos quos quia laborum dolore aperiam natus incidunt.</p>
             </div>
             <div className="hero__button">
                 <Button/>

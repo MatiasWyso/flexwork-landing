@@ -1,0 +1,19 @@
+.container {
+  height: 45rem;
+  background-color: #1b1846;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 24px;
+
+  &__izquierda {
+    width: 40%;
+    height: 100%;
+    
+  }
+
+  &__derecha {
+    width: 60%;
+    height: 100%;
+  }
+}

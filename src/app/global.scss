@@ -5,12 +5,21 @@
   margin: 0;
 }
 
-body {
-  background: var(--bg-primary);
-  max-width: 1350px;
-  margin: auto;
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+ 
 }
 
+body {
+
+  background: var(--bg-primary);
+
+}
+
+img{
+  display: block;
+}
 
 
 
@@ -58,6 +67,44 @@ body {
   --gradient-card:linear-gradient(180deg, rgba(27,24,70,1) 61%, rgba(51,38,85,1) 100%);
 }
 
-.wrap__app{
- 
+
+
+
+.landing{
+  width: 100%;
+  margin: 0 auto; 
+  padding: 0 20px;
+  max-width: 1400px;
+
+}
+
+
+
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  .landing {
+    max-width: 1200px;
+  }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .landing {
+    max-width: 992px;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .landing {
+    max-width: 768px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .landing {
+    max-width: 100%; 
+    padding: 0 15px;
+  }
 }

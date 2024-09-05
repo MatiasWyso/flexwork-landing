@@ -1,5 +1,5 @@
 .navbar {
-  height: 60px;
+  height: 55px;
   border-bottom: 1px solid var(--border-primary);
   
 
@@ -21,7 +21,7 @@
   &__links {
     list-style: none;
     display: flex;
-    font-size: 14px;
+    font-size: var(--font-size-small);
     font-weight: 400;
     gap: 1.5rem;
 

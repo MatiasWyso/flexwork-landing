@@ -1,13 +1,15 @@
 
 import Navbar from "./components/Navbar/Navbar";
-import Card from "./components/About/InfoCard/Card";
 import Hero from "./components/Hero/HeroSection";
+import About from "./components/About/About";
 
 export default function Home() {
   return (
-    <main className="wrap__app">
+    <main className="landing">
        <Navbar />
        <Hero />
+       <About />
+       
        
 
     </main>
