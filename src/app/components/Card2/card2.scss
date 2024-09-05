@@ -1,0 +1,23 @@
+.container {
+    background-color: #1B1846;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+    gap: 80px;
+    border-radius: 24px;
+
+    &__izquierda {
+
+        width: 50%;
+        justify-content: left;
+        height: auto;
+    }
+
+    &__derecha {
+
+        width: 50%;
+        padding: 5px 0px 10px 0px;
+
+    }
+}

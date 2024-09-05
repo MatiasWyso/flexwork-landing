@@ -1,0 +1,30 @@
+.section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 32 0 32 0;
+    gap: 64px;
+
+
+
+    &__item {
+        color: #9B9B9B;
+        border-radius: 4px;
+        text-align: left;
+
+        .section__item-section {
+            gap: 8px;
+            width: 280px;
+            height: 95px;
+        }
+
+        .section__item-title {
+            font-size: 1rem;
+            color:white;
+        }
+
+        .section__item-description {
+            margin-top: 5px;
+            font-size: 14px;
+        }
+    }
+}
