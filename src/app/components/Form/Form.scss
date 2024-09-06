@@ -1,0 +1,64 @@
+.BG {
+    background-image: url("/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (min-width: 1024px) {
+        padding-top: 13rem;
+        padding-bottom: 18.4375rem;
+    }
+}
+
+#suscripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 2rem;
+    color: aquamarine;
+}
+
+.gradient-text {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6671043417366946) 15%, rgba(255, 255, 255, 1) 62%);
+    /* Aplicar el gradiente solo al texto */
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Hacer el color del texto transparente */
+    color: transparent;
+}
+
+.sub-title-text {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+
+    @media (min-width: 1024px) {
+        margin-bottom: 4rem;
+
+    }
+}
+
+.title-text {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6671043417366946) 15%, rgba(255, 255, 255, 1) 62%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+    line-height: 1.2;
+
+    @media (min-width: 1024px) {
+        font-size: 7rem;
+        font-weight: 300;
+        margin-bottom: 6rem;
+    }
+}
+
+
+
+.input-group {
+    display: flex;
+    gap: 0.5rem;
+}
