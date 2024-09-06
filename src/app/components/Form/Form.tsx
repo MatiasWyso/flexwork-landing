@@ -3,6 +3,7 @@ import React, { useState, ChangeEvent, FormEvent } from "react";
 import { saveSubscription } from "../../firebase/Subscription";
 import TextInput from "../Atoms/Input/TextInput";
 import ButtonInput from "../Atoms/Input/ButtonInput";
+import "./Form.scss";
 
 const SubscriptionForm: React.FC = () => {
   const [name, setName] = useState<string>("");
@@ -21,37 +22,42 @@ const SubscriptionForm: React.FC = () => {
   };
 
   return (
-    <div>
+    <div className="BG">
       <form id="suscripcion" onSubmit={handleSubmit}>
-        <TextInput
-          label="Nombre"
-          value={name}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            setName(e.target.value)
-          }
-          required
-        />
-        <br />
-        <TextInput
-          label="Apellido"
-          value={lastname}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            setLastname(e.target.value)
-          }
-          required
-        />
-        <br />
-        <TextInput
-          label="Email"
-          type="email"
-          value={email}
-          onChange={(e: ChangeEvent<HTMLInputElement>) =>
-            setEmail(e.target.value)
-          }
-          required
-        />
-        <br />
-        <ButtonInput />
+        {/* <TextInput
+            label="Nombre"
+            value={name}
+            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+              setName(e.target.value)
+            }
+            required
+          />
+          <br />
+          <TextInput
+            label="Apellido"
+            value={lastname}
+            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+              setLastname(e.target.value)
+            }
+            required
+          /> */}
+        <p className="gradient-text sub-title-text">
+          ¿Listo para encontrar tu microproyecto?
+        </p>
+        <h2 className="gradient-text title-text">¡Anotate!</h2>
+        <div className="input-group">
+          <TextInput
+            label="Email"
+            type="email"
+            value={email}
+            onChange={(e: ChangeEvent<HTMLInputElement>) =>
+              setEmail(e.target.value)
+            }
+            required
+          />
+          <ButtonInput />
+        </div>
+        
       </form>
     </div>
   );
