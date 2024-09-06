@@ -2,6 +2,7 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/HeroSection";
 import About from "./components/About/About";
+import SubscriptionForm from './components/Form/Form';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
        <Navbar />
        <Hero />
        <About />
+       <SubscriptionForm />
        
        
 
