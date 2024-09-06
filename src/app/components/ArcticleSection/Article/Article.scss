@@ -1,0 +1,59 @@
+.card__wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;  
+    max-width: inherit; 
+    gap: 3rem;
+    
+
+    .card {
+        height: 120px;
+        width: 318px;
+        border-radius: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.6rem;
+        padding: 1rem;
+        border: 1px solid var(--border-primary); 
+      
+    
+        .card-image-container {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          
+      
+          img {
+            height: 3.4rem;
+            object-fit: contain;
+            
+            
+          }
+        }
+      
+        .card-content {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          text-align: center;
+      
+          h2 {
+            font-size: 1.25rem;
+            color: white;
+            
+      
+           
+          }
+      
+          p {
+            font-size:var(--font-size-small);
+            color: var(--text-primary); // zinc-400 color
+            text-align: center;
+          }
+        }
+      }
+      
+}
