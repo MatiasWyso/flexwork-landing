@@ -1,6 +1,8 @@
 .navbar {
   height: 55px;
   border-bottom: 1px solid var(--border-primary);
+  width: 100%;
+
   
 
   &__int {
@@ -8,6 +10,7 @@
     justify-content: space-between;
     align-items: center;    
     height: 100%;
+    width: 100%;
     
     
 }

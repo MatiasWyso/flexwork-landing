@@ -8,12 +8,11 @@ return (
     <section className="hero__wrap">
         <div className="hero__content">
             <div className="hero__title">
-                <h1>Flexwork Upskilling to Placement
-                    Lorem ipsum
+                <h1>Conectamos Profesionales con Empresas
                 </h1>
             </div>
             <div className="hero__description">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus aliquid dolor dolorum atque optio, eos quos quia laborum dolore aperiam natus incidunt.</p>
+                <p>  Flexwork está a punto de revolucionar la forma en que los profesionales y las empresas se conectan para proyectos específicos y de corta duración. ¡Suscríbete para recibir una notificación cuando nuestra plataforma esté disponible!</p>
             </div>
             <div className="hero__button">
                 <Button/>
