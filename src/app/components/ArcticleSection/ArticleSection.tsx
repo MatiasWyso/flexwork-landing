@@ -6,12 +6,9 @@ const ArticleSection = () => {
   return (
     <section className="wrap__article">
     <div className="article__content">
-      <h2 className="article__title">Encuentra talento para proyectos de Alto Impacto</h2>
+      <h2 className="article__title">¿Qué es Flexwork Microprojects?</h2>
       <p className="article__text">
-        Conectamos a empresas con profesionales destacados que entienden tus
-        necesidades. Nuestro enfoque en microproyectos te permite acceder a
-        soluciones especializadas, rápidas y efectivas, optimizando tu tiempo y
-        recursos.
+      Tu nueva plataforma para encontrar y ofrecer microproyectos de alto impacto. Conectamos a profesionales con empresas que necesitan soluciones rápidas y efectivas. Mantente al tanto de nuestro lanzamiento para aprovechar oportunidades únicas.
       </p>
     </div>
     <div className="article__component">

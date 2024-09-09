@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:5rem;
+    margin-top: 5rem;
 
     @media (min-width: 1024px) {
         padding-top: 13rem;
@@ -24,14 +24,17 @@
 }
 
 .gradient-text {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6671043417366946) 15%, rgba(255, 255, 255, 1) 62%);
-   
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6671043417366946) 21%, rgba(255, 255, 255, 1) 45%);
+
     -webkit-background-clip: text;
     background-clip: text;
-   
+
     color: transparent;
 }
 
+.gracias {
+    font-size: var(--font-size-normal);
+}
 .sub-title-text {
     font-size: 2rem;
     margin-bottom: 1.6rem;
@@ -43,7 +46,7 @@
 }
 
 .title-text {
-    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6671043417366946) 15%, rgba(255, 255, 255, 1) 62%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.6671043417366946) 21%, rgba(255, 255, 255, 1) 45%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -61,5 +64,4 @@
 
 .input-group {
     display: flex;
-    gap: 0.5rem;
 }

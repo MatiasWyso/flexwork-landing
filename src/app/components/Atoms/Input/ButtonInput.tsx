@@ -1,5 +1,5 @@
 "use client";
-import scss from "../ButtonReflex/ButtonReflex.module.scss";
+import scss from "./ButtonInput.module.scss";
 
 const ButtonInput: React.FC = () => {
     return (

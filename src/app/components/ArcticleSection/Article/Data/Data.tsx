@@ -3,21 +3,21 @@ export const ArticleData = [
         
         icon:"/users.png",
         title: "+700",
-        text: "Profesinal Activos"
+        text: "Profesionales Registrados"
     },
     {
         icon:"/briefcase.png",
         title: "+1500",
-        text: "Microproyecto Publicados"
+        text: "Microproyectos Diversos"
     },
     {
         icon:"/school.png",
         title: "+20",
-        text: "Areas de Especializacion"
+        text: "Areas de Especialización"
     },
     {
         icon:"/edit.png",
-        title: "+150",
-        text: "Abilidades Tecnicas"
+        title: "+50",
+        text: "Habilidades Técnicas"
     }
 ]

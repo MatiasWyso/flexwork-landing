@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBCrhjn0WfJSifgroNZXNLzsF8uhemPwUY",
-  authDomain: "flexwork-landing.firebaseapp.com",
-  projectId: "flexwork-landing",
-  storageBucket: "flexwork-landing.appspot.com",
-  messagingSenderId: "677211276504",
-  appId: "1:677211276504:web:6d6a09d21582c6d23cc3ad",
+  apiKey: process.env.NEXT_PUBLIC_API_KEY,
+  authDomain: process.env.NEXT_PUBLIC_AUTH_DOMAIN,
+  projectId: process.env.NEXT_PUBLIC_PROJECT_ID,
+  storageBucket: process.env.NEXT_PUBLIC_STORAGE_BUCKET,
+  messagingSenderId: process.env.NEXT_PUBLIC_MESSAGING_SENDER_ID,
+  appId: process.env.NEXT_PUBLIC_APP_ID,
 };
 
 const app = initializeApp(firebaseConfig);
