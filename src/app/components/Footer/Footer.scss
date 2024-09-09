@@ -1,20 +1,19 @@
 .footer {
-    background-color: var(--color-default); // Asegúrate de usar la variable correcta para el color de fondo
+    background-color: var(--color-default); 
     color: #fff;
-    padding: 1rem 2rem; // Añadido espacio a los lados para que el ícono no quede pegado al borde
-    text-align: center;
-    height: 20rem;
+    padding: 1rem 2rem;
+    height: 10rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     align-items: center;
 
     p {
         margin: 0;
-        font-size: var(--font-size-medium);
+        font-size: var(--font-size-extra-small);
     }
 
     .linkedin-link {
-        color: #4DC5AC; // Color del ícono de LinkedIn
+        color: #4DC5AC; 
         text-decoration: none;
     }
 
@@ -22,7 +21,7 @@
         transition: transform 0.3s;
 
         &:hover {
-            transform: scale(1.1); // Efecto de zoom al pasar el cursor sobre el ícono
+            transform: scale(1.1); 
         }
     }
 }

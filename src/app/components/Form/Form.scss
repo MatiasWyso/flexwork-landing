@@ -6,6 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top:5rem;
 
     @media (min-width: 1024px) {
         padding-top: 13rem;
@@ -24,10 +25,10 @@
 
 .gradient-text {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.6671043417366946) 15%, rgba(255, 255, 255, 1) 62%);
-    /* Aplicar el gradiente solo al texto */
+   
     -webkit-background-clip: text;
     background-clip: text;
-    /* Hacer el color del texto transparente */
+   
     color: transparent;
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.scss";
 import  Button  from "../Atoms/ButtonReflex/ButtonReflex";
+import Test from "../test/Test";
 
 const Hero: React.FC = () => {
 return (
@@ -20,7 +21,7 @@ return (
         </div>
         <div className="hero__imagewrap">
             <div>
-                <img src="/flexworkhome.png" alt="imagen de fondo principal de flexwork" />
+                <Test/>
             </div>
         </div>
     </section>

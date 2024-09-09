@@ -31,6 +31,7 @@
     .hero__button {
       width: 100%;
       margin-top: 1rem;
+      
      
       }
     }
@@ -38,22 +39,14 @@
 
   .hero__imagewrap {
     width: 50%;
+    
   
 
     div {
-      height: auto;
+      height:30rem;
       width: 100%;
-      padding-top:2rem;
       display: flex;
-      justify-content: center;
-    }
-
-    img {
-      
-      object-fit: contain;
-      object-position: center;
-      width: 450px;
-      height: 450px;
+      justify-content: end;
     }
   }
 
