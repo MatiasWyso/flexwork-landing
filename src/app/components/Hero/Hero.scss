@@ -1,52 +1,111 @@
 .hero__wrap {
-  height: 75vh;
+  height: 80vh;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+ 
+  padding: 2rem;
+  gap: 3rem;
 
   .hero__content {
-    width: 40%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 1.8rem;
+    
+    gap: 2rem;
 
     .hero__title {     
-
       h1 {
-        font-size: var(--font-size-large);
+        font-size: var(--font-size-large); /* Ajustado para mobile */
         font-weight: 700;
         color: white;
+        
       }
     }
 
     .hero__description {
       width: 100%;
       p {
-        font-size:var(--font-size-small);
+        font-size: var(--font-size-small);
         color: var(--text-primary);
+        
       }
     }
 
     .hero__button {
-      width: 100%;
       margin-top: 1rem;
-      
-     
-      }
     }
   }
 
   .hero__imagewrap {
-    width: 50%;
-    
-  
+    width: 100%;
 
     div {
-      height:30rem;
+      height: 20rem; /* Ajustado para mobile */
       width: 100%;
       display: flex;
-      justify-content: end;
+      justify-content: center;
     }
   }
+}
 
+/* Estilos para tablet */
+@media screen and (min-width: 768px) {
+  .hero__wrap {
+    height: 60vh;
+    flex-direction: row;
+    padding: 1rem 2rem;
+
+    .hero__content {
+      width: 45%;
+      gap: 1.5rem;
+
+      .hero__title h1 {
+        font-size: var(--font-size-large); /* Ajustado para tablet */
+      }
+
+      .hero__description p {
+        font-size: var(--font-size-medium); /* Ajustado para tablet */
+      }
+    }
+
+    .hero__imagewrap {
+      width: 45%;
+
+      div {
+        height: 25rem; /* Ajustado para tablet */
+      }
+    }
+  }
+}
+
+/* Estilos para desktop */
+@media screen and (min-width: 1024px) {
+  .hero__wrap {
+    height: 75vh;
+    justify-content: space-between;
+    padding: 0;
+
+    .hero__content {
+      width: 40%;
+      gap: 1.8rem;
+
+      .hero__title h1 {
+        font-size: var(--font-size-large); /* Estilos de desktop */
+      }
+
+      .hero__description p {
+        font-size: var(--font-size-small);
+      }
+    }
+
+    .hero__imagewrap {
+      width: 50%;
+
+      div {
+        height: 30rem; /* Estilos de desktop */
+        justify-content: flex-end;
+      }
+    }
+  }
+}

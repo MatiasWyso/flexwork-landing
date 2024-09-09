@@ -1,3 +1,4 @@
+/* Estilos por defecto (mobile-first) */
 .container {
   background-image: linear-gradient(
       to right,
@@ -5,7 +6,6 @@
       transparent 1px
     ),
     linear-gradient(to bottom, rgba(79, 79, 79, 0.3) 1px, transparent 1px);
-
   background-size: 16px 16px;
   mask-image: radial-gradient(
     circle at 49% 49%,
@@ -14,21 +14,20 @@
     transparent 100%
   );
   position: relative;
-  width: 50%;
-  height: 30rem;
+  width: 100%; /* Ajuste para mobile */
+  height: 20rem; /* Ajuste para mobile */
   margin: auto;
   text-align: center;
 }
 
 .main-text {
-  font-size: 68px;
+  font-size: 35px; /* Ajustado para mobile */
   font-weight: bold;
   color: white;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  
 }
 
 .word {
@@ -38,46 +37,117 @@
   color: white;
   cursor: pointer;
   transition: 0.4s ease-in-out;
-  
 }
 
 .word:hover {
   transform: scale(1.1);
-  
+}
+
+/* Ajuste de las posiciones de las palabras en mobile */
+.word1, .word2, .word3, .word4 {
+  font-size: 10px; /* Ajuste general para mobile */
 }
 
 .word1 {
-  top: 80px;
-  right: 65px;
-  font-size: 16px;
+  top: 40px;
+  right: 25px;
   background-color: rgba(103, 49, 216, 0.44);
   color: #baadff;
   border: 1px solid #baadff;
 }
 
 .word2 {
-  bottom: 75px;
-  left: 80px;
-  font-size: 16px;
+  bottom: 45px;
+  left: 30px;
   background-color: rgba(103, 49, 216, 0.44);
   color: #baadff;
   border: 1px solid #baadff;
 }
 
 .word3 {
-  top: 55px;
-  left: 130px;
-  font-size: 16px;
+  top: 35px;
+  left: 50px;
   background-color: rgba(0, 251, 236, 0.4);
   color: #95fff8;
   border: 1px solid #95fff8;
 }
 
 .word4 {
-  bottom: 50px;
-  right: 50px;
-  font-size: 16px;
+  bottom: 30px;
+  right: 35px;
   background-color: rgba(0, 251, 236, 0.4);
   color: #95fff8;
   border: 1px solid #95fff8;
+}
+
+/* Media query para tablet */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 70%;
+    height: 25rem; /* Ajuste para tablet */
+  }
+
+  .main-text {
+    font-size: 50px; /* Ajuste para tablet */
+  }
+
+  .word1, .word2, .word3, .word4 {
+    font-size: 14px; /* Ajuste general para tablet */
+  }
+
+  .word1 {
+    top: 60px;
+    right: 45px;
+  }
+
+  .word2 {
+    bottom: 55px;
+    left: 50px;
+  }
+
+  .word3 {
+    top: 50px;
+    left: 90px;
+  }
+
+  .word4 {
+    bottom: 50px;
+    right: 65px;
+  }
+}
+
+/* Media query para desktop */
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 50%;
+    height: 30rem;
+  }
+
+  .main-text {
+    font-size: 68px; /* Estilos de desktop */
+  }
+
+  .word1, .word2, .word3, .word4 {
+    font-size: 16px; /* Estilos de desktop */
+  }
+
+  .word1 {
+    top: 80px;
+    right: 65px;
+  }
+
+  .word2 {
+    bottom: 75px;
+    left: 80px;
+  }
+
+  .word3 {
+    top: 55px;
+    left: 130px;
+  }
+
+  .word4 {
+    bottom: 50px;
+    right: 50px;
+  }
 }

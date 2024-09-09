@@ -8,11 +8,17 @@ import Footer from "./components/Footer/Footer";
 export default function Home() {
   return (
     <main className="landing">
-      <Navbar />
-      <Hero />
+      <Navbar/>
+      <Hero/>
       <ArticleSection/>
-      <SubscriptionForm />
-      <Footer />
+      <SubscriptionForm/>
+      <Footer/>
+      
+      
+     
+    
+     
+   
       
     </main>
   );

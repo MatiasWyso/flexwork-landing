@@ -1,59 +1,110 @@
-.card__wrap{
+
+.card__wrap {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem; 
+
+  .card {
+    height: 100px; 
+    width: 90%; 
+    border-radius: 1rem; 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;  
-    max-width: inherit; 
-    gap: 3rem;
-    
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid var(--border-primary);
 
-    .card {
-        height: 120px;
-        width: 318px;
-        border-radius: 1.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 1.6rem;
-        padding: 1rem;
-        border: 1px solid var(--border-primary); 
-      
-    
-        .card-image-container {
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          
-      
-          img {
-            height: 3.4rem;
-            object-fit: contain;
-            
-            
-          }
-        }
-      
-        .card-content {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-      
-          h2 {
-            font-size: 1.25rem;
-            color: white;
-            
-      
-           
-          }
-      
-          p {
-            font-size:var(--font-size-small);
-            color: var(--text-primary); // zinc-400 color
-            text-align: center;
-          }
-        }
+    .card-image-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: 2.8rem; 
+        object-fit: contain;
       }
-      
+    }
+
+    .card-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+
+      h2 {
+        font-size: 1rem;
+        color: white;
+      }
+
+      p {
+        font-size: var(--font-size-xsmall); 
+        color: var(--text-primary);
+        text-align: center;
+      }
+    }
+  }
+}
+
+/* Media query para tablet */
+@media screen and (min-width: 768px) {
+  .card__wrap {
+    flex-direction: row; /* Cambio a fila para tablet */
+    gap: 2.5rem; /* Ajuste de espacio para tablet */
+  }
+
+  .card {
+    height: 110px; /* Ajuste de altura para tablet */
+    width: 280px; /* Ajuste de ancho para tablet */
+    border-radius: 1.25rem; /* Ajuste del radio para tablet */
+
+    .card-image-container {
+      img {
+        height: 3.2rem; /* Ajuste para tablet */
+      }
+    }
+
+    .card-content {
+      h2 {
+        font-size: 1.15rem; /* Ajuste para tablet */
+      }
+
+      p {
+        font-size: var(--font-size-small); /* Ajuste para tablet */
+      }
+    }
+  }
+}
+
+/* Media query para desktop */
+@media screen and (min-width: 1024px) {
+  .card__wrap {
+    gap: 3rem; /* Estilos de desktop */
+  }
+
+  .card {
+    height: 120px; /* Manteniendo los estilos de desktop */
+    width: 318px;
+    border-radius: 1.5rem;
+
+    .card-image-container {
+      img {
+        height: 3.4rem; /* Estilos de desktop */
+      }
+    }
+
+    .card-content {
+      h2 {
+        font-size: 1.25rem; /* Estilos de desktop */
+      }
+
+      p {
+        font-size: var(--font-size-small); /* Estilos de desktop */
+      }
+    }
+  }
 }
