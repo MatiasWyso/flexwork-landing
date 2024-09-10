@@ -1,5 +1,6 @@
 .navbar {
   height: 55px;
+  width: 100%;
   border-bottom: 1px solid var(--border-primary);
   width: 100%;
 
@@ -7,10 +8,15 @@
 
   &__int {
     display: flex;
+    width:  100%;
     justify-content: space-between;
     align-items: center;    
     height: 100%;
-    width: 100%;
+
+  
+
+  
+
     
     
 }

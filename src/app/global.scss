@@ -1,9 +1,8 @@
-
-
-* {
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
 }
 
 html {
@@ -85,27 +84,111 @@ img{
 @media (min-width: 1200px) and (max-width: 1599px) {
   .landing {
     max-width: 1200px;
+
   }
-}
-
-
-@media (min-width: 992px) and (max-width: 1199px) {
-  .landing {
-    max-width: 992px;
+  
+  html {
+    
+    font-size: 62.5%;
+   
   }
-}
-
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .landing {
-    max-width: 768px;
+  
+  body {
+  
+    background: var(--bg-primary);
+  
+  
   }
-}
-
-
-@media (max-width: 767px) {
-  .landing {
-    max-width: 100%; 
-    padding: 0 15px;
+  
+  img{
+    display: block;
+  }
+  
+  
+  
+  :root {
+    --primary-color: #fafafa;
+    --second-color: #4DC5AC;
+    --third-color: #5148C0;
+    --default-color: #003912;
+    --default-color-light: #19aa64;
+  
+  
+    //% COLOR:
+    --card-dark: #1B1846;
+  
+    //% CARD BG:
+  
+  
+  
+    //% TEXT:
+    --text-primary: #9B9B9B;
+    --text-secondary: #fafafa;
+    --text-third: #5148C0;
+  
+    //% BG:
+    --bg-primary: #000000;
+  
+    //% BORDER:
+    --border-primary:#ffffff24;
+  
+    //% FONT SIZE:
+    --font-size-extra-small: 0.8rem;
+    --font-size-small: 1.2rem;
+    --font-size-normal: 1.4rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 2.4rem;
+  
+    //% FONT WEIGHT:
+    --font-weight-small: light;
+    --font-weight-normal: normal;
+    --font-weight-medium: semibold;
+    --font-weight-large: bold;
+  
+    //% GRADIENT:
+    --gradient-fivver: linear-gradient(180deg, var(--default-color) 36.72%, var(--default-color-light) 141.43%);
+    --gradient-card:linear-gradient(180deg, rgba(27,24,70,1) 61%, rgba(51,38,85,1) 100%);
+  }
+  
+  
+  
+  
+  .landing{
+    width: 100%;
+    margin: 0 auto; 
+    padding: 0 20px;
+    max-width: 1400px;
+  
+  }
+  
+  
+  
+  
+  @media (min-width: 1200px) and (max-width: 1599px) {
+    .landing {
+      max-width: 1200px;
+    }
+  }
+  
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .landing {
+      max-width: 992px;
+    }
+  }
+  
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .landing {
+      max-width: 768px;
+    }
+  }
+  
+  
+  @media (max-width: 767px) {
+    .landing {
+      max-width: 100%; 
+      padding: 0 15px;
+    }
   }
 }
