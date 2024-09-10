@@ -12,9 +12,9 @@ const SubscriptionForm: React.FC = () => {
 
   const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setSubmitted(true); 
     await saveSubscription(email);
     setEmail("");
-    setSubmitted(true); 
   };
 
   return (
