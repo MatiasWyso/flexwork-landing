@@ -4,22 +4,15 @@ import ArticleSection from "./components/ArcticleSection/ArticleSection";
 import SubscriptionForm from "./components/Form/Form";
 import Footer from "./components/Footer/Footer";
 
-
 export default function Home() {
   return (
     <main className="landing">
-      <Navbar/>
-      <Hero/>
-      <ArticleSection/>
-      <SubscriptionForm/>
-      <Footer/>
-      
-      
-     
-    
-     
-   
-      
+      <Navbar />
+      <Hero />
+      <hr className="hr__landing"/>
+      <ArticleSection />
+      <SubscriptionForm />
+      <Footer />
     </main>
   );
 }

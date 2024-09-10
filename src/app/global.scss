@@ -73,9 +73,17 @@ img{
 .landing{
   width: 100%;
   margin: 0 auto; 
-  padding: 0 20px;
+  padding: 0 30px;
   max-width: 1400px;
 
+}
+
+.hr__landing{
+  width: 100%;
+  border: 0;
+  border-bottom: 1px solid var(--border-primary);
+  
+ 
 }
 
 
@@ -83,7 +91,8 @@ img{
 
 @media (min-width: 1200px) and (max-width: 1599px) {
   .landing {
-    max-width: 1200px;
+   
+
 
   }
   
@@ -153,42 +162,10 @@ img{
   
   
   
-  .landing{
-    width: 100%;
-    margin: 0 auto; 
-    padding: 0 20px;
-    max-width: 1400px;
+  
   
   }
+
   
   
   
-  
-  @media (min-width: 1200px) and (max-width: 1599px) {
-    .landing {
-      max-width: 1200px;
-    }
-  }
-  
-  
-  @media (min-width: 992px) and (max-width: 1199px) {
-    .landing {
-      max-width: 992px;
-    }
-  }
-  
-  
-  @media (min-width: 768px) and (max-width: 991px) {
-    .landing {
-      max-width: 768px;
-    }
-  }
-  
-  
-  @media (max-width: 767px) {
-    .landing {
-      max-width: 100%; 
-      padding: 0 15px;
-    }
-  }
-}

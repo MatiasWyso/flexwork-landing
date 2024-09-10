@@ -4,16 +4,17 @@ import "./Footer.scss";
 const Footer: React.FC = () => {
   return (
     <footer className="footer">
-      <p>&copy; 2024 </p>
       <a
         href="https://www.linkedin.com/company/flexwork-latam"
         className="linkedin-link"
         target="_blank"
         rel="noopener noreferrer"
-      >
-       @Flexwork.
+        >
+       Flexwork
       </a>
-      <p> Todos los derechos reservados.</p>
+      <p> &copy; Todos los derechos reservados</p>
+      <p>2024</p>
+    
     </footer>
   );
 };
