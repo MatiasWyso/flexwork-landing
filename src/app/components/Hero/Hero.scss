@@ -16,7 +16,7 @@
 
     .hero__title {     
       h1 {
-        font-size: var(--font-size-large); 
+        font-size: var(--font-size-medium); 
         font-weight: 700;
         color: white;
       }
@@ -25,7 +25,7 @@
     .hero__description {
       width: 100%;
       p {
-        font-size: var(--font-size-small);
+        font-size:12px;
         color: var(--text-primary);
       }
     }

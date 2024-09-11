@@ -1,6 +1,5 @@
 "use client";
 import { ArticleData } from "./Data/Data";
-import { FC } from "react";
 import "./Article.scss";
 
 interface ArticleProps {
