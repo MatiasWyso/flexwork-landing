@@ -1,6 +1,6 @@
-import "./Test.scss";
+import "./HeroBrand.scss";
 
-const Test = () => {
+const Brand = () => {
   return (
     <>
       <div className="container">
@@ -14,4 +14,4 @@ const Test = () => {
   );
 };
 
-export default Test;
+export default Brand;

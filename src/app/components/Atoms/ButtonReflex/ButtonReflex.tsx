@@ -11,7 +11,7 @@ const Button = () => {
 
     return (
         <button className={scss.btn} onClick={handleButtonClick}>
-            Suscribite
+            Únete ahora
         </button>
     );
 };

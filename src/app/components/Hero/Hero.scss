@@ -1,5 +1,5 @@
 .hero__wrap {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   flex-direction: column-reverse;
   justify-content: start;
@@ -19,7 +19,6 @@
         font-size: var(--font-size-large); 
         font-weight: 700;
         color: white;
-        
       }
     }
 
@@ -28,12 +27,10 @@
       p {
         font-size: var(--font-size-small);
         color: var(--text-primary);
-        
       }
     }
 
     .hero__button {
-     
       margin-top: 2.5rem;
     }
   }
@@ -42,7 +39,7 @@
     width: 100%;
 
     div {
-      height: 20rem; /* Ajustado para mobile */
+      height: 20rem;
       width: 100%;
       display: flex;
       justify-content: center;
@@ -50,15 +47,13 @@
   }
 }
 
-/* Estilos para tablet */
 @media screen and (min-width: 768px) {
   .hero__wrap {
-    height: 45vh;
+    height: 50rem;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
-    
 
     .hero__content {
       width: 100%;
@@ -66,13 +61,13 @@
       gap: 1.5rem;
 
       .hero__title h1 {
-        font-size: var(--font-size-large); /* Ajustado para tablet */
+        font-size: var(--font-size-large);
       }
 
       .hero__description p {
         width: 80%;
         margin: auto;
-        font-size: var(--font-size-small); /* Ajustado para tablet */
+        font-size: var(--font-size-small);
       }
 
       .hero__button {
@@ -83,30 +78,36 @@
 
     .hero__imagewrap {
       width: 100%;
-
-    
     }
   }
 }
 
-/* Estilos para desktop */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1100px) {
   .hero__wrap {
     height: 75vh;
+    flex-direction: row;
     justify-content: space-between;
-    padding: 0;
 
     .hero__content {
       width: 40%;
+      height: 25rem;
       text-align: left;
-      gap: 1.8rem;
+      gap: 1.5rem;
 
       .hero__title h1 {
-        font-size:30px; /* Estilos de desktop */
+        
+        font-size: 30px;
       }
 
       .hero__description p {
+        margin: 0;
+        width: 90%;
         font-size: var(--font-size-small);
+      }
+
+      .hero__button {
+        width: 100%;
+        margin-top: 2rem;
       }
     }
 
@@ -114,8 +115,41 @@
       width: 50%;
 
       div {
-        height: 30rem; /* Estilos de desktop */
-        justify-content: flex-end;
+        height: 30rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .hero__wrap {
+    height: 60vh;
+    justify-content: center;
+
+    .hero__content {
+      width: 50%;
+      height: 35rem;
+      text-align: left;
+      gap: 2rem;
+
+      .hero__title h1 {
+        font-size: 36px;
+      }
+
+      .hero__description p {
+        font-size: 18px;
+      }
+
+      .hero__button {
+        margin-top: 3rem;
+      }
+    }
+
+    .hero__imagewrap {
+      width: 50%;
+
+      div {
+        height: 35rem;
       }
     }
   }

@@ -8,14 +8,6 @@ const Navbar: React.FC = () => {
         <div className="navbar__logo">
           <a> Flexwork </a>
         </div>
-        <ul className="navbar__links">
-          <li>
-            <a href="#inicio">Inicio</a>
-          </li>
-          <li>
-            <a href="#sobre-nosotros">Suscribirse</a>
-          </li>
-        </ul>
       </div>
     </nav>
   );

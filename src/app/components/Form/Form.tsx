@@ -1,8 +1,8 @@
 "use client";
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import { saveSubscription } from "../../firebase/Subscription";
-import TextInput from "../Atoms/Input/TextInput";
-import ButtonInput from "../Atoms/Input/ButtonInput";
+import TextInput from "../Atoms/Input/TextInput/TextInput";
+import ButtonInput from "../Atoms/Input/ButtonInput/ButtonInput";
 import "./Form.scss";
 
 const SubscriptionForm: React.FC = () => {
@@ -21,9 +21,9 @@ const SubscriptionForm: React.FC = () => {
     <div className="BG">
       <form id="suscripcion" onSubmit={handleSubmit}>
         <p className="gradient-text sub-title-text">
-          ¿Listo para encontrar tu microproyecto?
+          Suscribite y no te pierdas ninguna novedad 
         </p>
-        <h2 className="gradient-text title-text">¡Anotate!</h2>
+        <h2 className="gradient-text title-text">¡Anótate!</h2>
         {submitted ? (
           <p className="gracias">¡Gracias por suscribirte!</p>
         ) : (

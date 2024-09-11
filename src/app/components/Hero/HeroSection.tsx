@@ -1,21 +1,20 @@
 import React from "react";
 import "./Hero.scss";
 import Button from "../Atoms/ButtonReflex/ButtonReflex";
-import Test from "../test/Test";
+import Brand from "./HeroBrand/HeroBrand";
 
 const Hero: React.FC = () => {
   return (
     <section className="hero__wrap">
       <div className="hero__content">
         <div className="hero__title">
-          <h1>Conectamos Profesionales con Empresas</h1>
+          <h1> Conectando Proyectos con Talento Especializado </h1>
         </div>
         <div className="hero__description">
           <p>
-            
-            Flexwork está a punto de revolucionar la forma en que los
-            profesionales y las empresas se conectan para proyectos específicos
-            y de corta duración. 
+            Flexwork conecta empresas con profesionales especializados para
+            resolver proyectos de manera rápida y eficiente. Encuentra el
+            talento que tu negocio necesita para crecer.
           </p>
         </div>
 
@@ -23,10 +22,10 @@ const Hero: React.FC = () => {
           <Button />
         </div>
       </div>
-      
+
       <div className="hero__imagewrap">
         <div>
-          <Test />
+          <Brand />
         </div>
       </div>
     </section>

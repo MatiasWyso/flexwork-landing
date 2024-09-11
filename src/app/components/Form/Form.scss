@@ -21,6 +21,7 @@
   align-items: center;
   width: 100%;
   padding: 2rem;
+  margin-top: 3rem;
   color: aquamarine;
   gap: 2rem;
 }
@@ -28,7 +29,7 @@
 .gradient-text {
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.6671043417366946) 5%,
+    rgba(0, 0, 0, 0.027) 5%,
     rgba(255, 255, 255, 1) 45%
   );
 
@@ -54,7 +55,7 @@
 .title-text {
   background: linear-gradient(
     180deg,
-    rgba(0, 0, 0, 0.6671043417366946) 21%,
+    rgba(0, 0, 0, 0.267) 5%,
     rgba(255, 255, 255, 1) 45%
   );
   -webkit-background-clip: text;

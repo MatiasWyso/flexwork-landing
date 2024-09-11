@@ -4,11 +4,12 @@
     padding: 1rem 2rem;
     height: 10rem;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-items: center;
     gap: 5px;
 
     p {
+        
         margin: 0;
         color: var(--text-primary);
         font-size: var(--font-size-small);
@@ -23,6 +24,17 @@
             text-decoration: underline;
         }
     }
+
+    @media screen and (min-width: 768px) {
+        justify-content: right;
+
+    }
+
+    @media (max-width: 375px) {
+        p:nth-child(2) {
+          display: none;
+        }
+      }
 
    
 }

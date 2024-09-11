@@ -1,4 +1,3 @@
-
 .card__wrap {
   display: flex;
   flex-direction: column; 
@@ -50,60 +49,59 @@
   }
 }
 
-/* Media query para tablet */
 @media screen and (min-width: 768px) {
   .card__wrap {
-    flex-direction: row; /* Cambio a fila para tablet */
-    gap: 2.5rem; /* Ajuste de espacio para tablet */
+    flex-direction: column;
+    gap: 2.5rem;
   }
 
   .card {
-    height: 110px; /* Ajuste de altura para tablet */
-    width: 280px; /* Ajuste de ancho para tablet */
-    border-radius: 1.25rem; /* Ajuste del radio para tablet */
+    height: 110px;
+    width: 280px;
+    border-radius: 1.25rem;
 
     .card-image-container {
       img {
-        height: 3.2rem; /* Ajuste para tablet */
+        height: 3.2rem;
       }
     }
 
     .card-content {
       h2 {
-        font-size: 1.15rem; /* Ajuste para tablet */
+        font-size: 1.15rem;
       }
 
       p {
-        font-size: var(--font-size-small); /* Ajuste para tablet */
+        font-size: var(--font-size-small);
       }
     }
   }
 }
 
-/* Media query para desktop */
 @media screen and (min-width: 1024px) {
   .card__wrap {
-    gap: 3rem; /* Estilos de desktop */
+    flex-direction: row;
+    gap: 3rem;
   }
 
   .card {
-    height: 120px; /* Manteniendo los estilos de desktop */
+    height: 120px;
     width: 318px;
     border-radius: 1.5rem;
 
     .card-image-container {
       img {
-        height: 3.4rem; /* Estilos de desktop */
+        height: 3.4rem;
       }
     }
 
     .card-content {
       h2 {
-        font-size: 1.25rem; /* Estilos de desktop */
+        font-size: 1.25rem;
       }
 
       p {
-        font-size: var(--font-size-small); /* Estilos de desktop */
+        font-size: var(--font-size-small);
       }
     }
   }
