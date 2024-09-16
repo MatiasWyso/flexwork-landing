@@ -2,12 +2,19 @@ import { collection, addDoc } from "firebase/firestore";
 import { db } from "./db";
 
 export const saveSubscription = async (
-  email: string
+  name: string,
+  email: string,
+  lastname: string,
+  phone: string
 ) => {
   try {
     await addDoc(collection(db, "subscriptions"), {
+      name: name,
+      lastname: lastname,
       email: email,
+      phone: phone,
       timestamp: new Date(),
+
     });
     console.log("Subscription saved successfully");
   } catch (e) {
