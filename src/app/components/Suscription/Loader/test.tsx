@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { MultiStepLoader as Loader } from "../Benefits/Loader/Benefits";
+import { MultiStepLoader as Loader } from "./Benefits/Benefits";
 import "./test.scss";
 
 const loadingStates = [

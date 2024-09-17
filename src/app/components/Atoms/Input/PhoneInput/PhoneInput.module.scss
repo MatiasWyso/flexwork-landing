@@ -4,8 +4,9 @@
   
   .input {
     border: solid 1.5px #9e9e9e;
-    border-right: none;
+    border-radius: 0 1rem 1rem 0;
     border-left: none;
+
     background: black;
     padding: 1rem;
     font-size: var(--font-size-normal);
@@ -24,19 +25,18 @@
     transition: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
-  .input:focus,
-  .input:valid {
+  .input:focus{
     outline: none;
     border: 1.5px solid #6f41d2;
     border-right: none;
     border-left: none;
   }
   
-  .input:focus ~ .userLabel,
-  .input:valid ~ .userLabel {
+  .input:focus ~ .userLabel {
     transform: translateY(-50%) scale(0.8);
     background-color: #000000;
     padding: 0 0.2em;
     color: #6f41d2;
   }
+  
   
