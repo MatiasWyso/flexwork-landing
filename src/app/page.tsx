@@ -3,8 +3,9 @@ import Hero from "./components/Hero/HeroSection";
 import ArticleSection from "./components/ArcticleSection/ArticleSection";
 import Info from "./components/Info/Info";
 import Footer from "./components/Footer/Footer";
-import "./page.scss";
 import Suscription from "./components/Suscription/Suscription";
+import Phrase from "./components/Atoms/Phrase/Phrase";
+import "./page.scss";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <ArticleSection />
       <Suscription />
       <Info />
+      <Phrase />
       <Footer />
     </main>
   );
