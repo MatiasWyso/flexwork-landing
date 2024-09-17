@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
         </div>
         <div className="hero__description">
           <p>
-            ¿Listo para aumentar tus ingresos? Flexwork te conectará con
+            <span>¿Listo para aumentar tus ingresos? </span>Flexwork te conectará con
             proyectos que se adapten a ti y te ayudará a lograr tus objetivos
             financieros. ¡No te pierdas esta oportunidad!
           </p>

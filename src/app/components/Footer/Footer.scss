@@ -2,7 +2,7 @@
     background-color: var(--color-default); 
     color: #fff;
     padding: 1rem 2rem;
-    height: 10rem;
+    height: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@
     }
 
     .linkedin-link {
-        color: #4DC5AC; 
+        color: var(--color-primary); 
         text-decoration: none;
         font-size: var(--font-size-small);
         

@@ -18,7 +18,7 @@ export default function Home() {
 
       <Navbar />
       <Hero />
-      {/* <hr className="hr__landing"/> */}
+      <hr className="hr__landing"/> 
       <ArticleSection />
       <Suscription />
       <SubscriptionForm />

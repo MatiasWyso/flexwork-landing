@@ -29,48 +29,6 @@ const SubscriptionForm: React.FC = () => {
     <div className="BG">
       <form id="info" onSubmit={handleSubmit}>
         <h2 className="gradient-text title-text">¡Anótate!</h2>
-        {/* {submitted ? (
-          <p className="gracias">¡Gracias por suscribirte!</p>
-        ) : (
-          <div className="input-group">
-            <NameInput
-              label="Nombre"
-              type="text"
-              value={name}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                setName(e.target.value)
-              }
-              required
-            />
-            <TextInput
-              label="Apellido"
-              type="text"
-              value={lastname}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                setLastname(e.target.value)
-              }
-              required
-            />
-            <TextInput
-              label="Email"
-              type="email"
-              value={email}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                setEmail(e.target.value)
-              }
-              required
-            />
-            <PhoneInput
-              label="Celular (opcional)"
-              type="tel"
-              value={phone}
-              onChange={(e: ChangeEvent<HTMLInputElement>) =>
-                setPhone(e.target.value)
-              }
-              required={false}
-            />
-          </div>
-        )} */}
         <p className="sub-title-text">
           Regístrate y obtén acceso prioritario a microproyectos de alto impacto
           con empresas globales.
