@@ -32,6 +32,7 @@ const Info: React.FC = () => {
         <div className="input-group">
           <div className="primerLinea">
             <NameInput
+            
               label="Nombre"
               type="text"
               value={name}

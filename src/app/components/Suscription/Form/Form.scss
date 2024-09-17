@@ -20,6 +20,10 @@
     height: 60%;
 }
 
+.gracias{
+    font-size: var(--font-size-medium);
+}
+
 .input-group > * {
     margin-bottom: 30px; 
 }
@@ -41,4 +45,10 @@
     justify-content: left; 
     width: 100%;
     margin-top: 20px; 
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        justify-content: center;
+    }
 }
