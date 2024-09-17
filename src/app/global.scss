@@ -81,7 +81,7 @@ img{
   width: 100%;
   border: 0;
   border-bottom: 1px solid var(--border-primary);
-  mask-image: linear-gradient(2deg, transparent, rgb(255, 255, 255) 30px, rgb(255, 255, 255) calc(100% - 30px), transparent);
+  mask-image: linear-gradient(to right, transparent, rgb(0, 0, 0) 90px, rgb(0, 0, 0) calc(100% - 90px), transparent);
   
  
 }
