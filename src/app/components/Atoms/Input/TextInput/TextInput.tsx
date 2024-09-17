@@ -3,10 +3,10 @@ import styles from "./TextInput.module.scss";
 
 interface TextInputProps {
   label: string;
-  value: string;
+  value: string ;
   onChange: (e: ChangeEvent<HTMLInputElement>) => void;
   type?: string;
-  required: boolean;
+  required?: boolean;
 }
 
 const TextInput: React.FC<TextInputProps> = ({label, value, onChange, type = "text", required = true}) => {
