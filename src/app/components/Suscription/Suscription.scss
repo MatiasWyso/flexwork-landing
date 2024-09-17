@@ -1,7 +1,7 @@
 .suscription-container {
     position: relative;
     width: 100%;
-    height: 60rem;
+    height: 80rem;
     background-color: rgba(0, 0, 0, 0);
     background-image: radial-gradient(circle at center, rgba(59, 218, 178, 0.09), rgba(255, 255, 255, 0.01) 50%);
     mask-image: linear-gradient(transparent, rgb(0, 0, 0) 70px, rgb(0, 0, 0) calc(100% - 80px), transparent);
@@ -10,6 +10,7 @@
 
 #suscripcion {
     display: flex;
+    flex-direction: column;
     width: 100%;
     z-index: 1;
 
@@ -36,28 +37,47 @@
     width: 100%;
     height: 100%;
     justify-content: center;
+    flex-direction: column;
     
 }
 
 .Multistep {
-    width: 50%;
+    width: 100%;
 }
 
 .Form {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100%;
+  
 
 }
 
-@media (max-width: 768px) {
-    #suscripcion {
-        flex-direction: column;
+
+@media (min-width: 768px) {
+
+  .suscription-container{
+    padding-top: 4rem;
+    height:60rem;
+  }
+
+
+
+
+    .otromas{
+       
+        height: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
-    .Multistep,
-    .Form {
-        width: 100%;
+
+
+    .Multistep{
+        width: 50%;
+    }
+
+    .Form{
+        width: 50%;
     }
 }
+
