@@ -2,8 +2,11 @@
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import { saveSubscription } from "../../firebase/Subscription";
 import TextInput from "../Atoms/Input/TextInput/TextInput";
-import ButtonInput from "../Atoms/Input/ButtonInput/ButtonInput";
+import ButtonInput from '../Atoms/Input/ButtonInput/ButtonInput';
 import "./Form.scss";
+import PhoneInput from "../Atoms/Input/PhoneInput/PhoneInput";
+import NameInput from "../Atoms/Input/NameInput/NameInput";
+import Button from "../Atoms/ButtonMain/ButtonMain";
 
 const SubscriptionForm: React.FC = () => {
   const [name, setName] = useState<string>("");
@@ -24,16 +27,13 @@ const SubscriptionForm: React.FC = () => {
 
   return (
     <div className="BG">
-      <form id="suscripcion" onSubmit={handleSubmit}>
-        <p className="gradient-text sub-title-text">
-          Suscribite y no te pierdas ninguna novedad
-        </p>
+      <form id="info" onSubmit={handleSubmit}>
         <h2 className="gradient-text title-text">¡Anótate!</h2>
-        {submitted ? (
+        {/* {submitted ? (
           <p className="gracias">¡Gracias por suscribirte!</p>
         ) : (
           <div className="input-group">
-            <TextInput
+            <NameInput
               label="Nombre"
               type="text"
               value={name}
@@ -60,7 +60,7 @@ const SubscriptionForm: React.FC = () => {
               }
               required
             />
-            <TextInput
+            <PhoneInput
               label="Celular (opcional)"
               type="tel"
               value={phone}
@@ -68,11 +68,14 @@ const SubscriptionForm: React.FC = () => {
                 setPhone(e.target.value)
               }
               required={false}
-              
             />
-            <ButtonInput />
           </div>
-        )}
+        )} */}
+        <p className="sub-title-text">
+          Regístrate y obtén acceso prioritario a microproyectos de alto impacto
+          con empresas globales.
+        </p>
+        <Button />
       </form>
     </div>
   );

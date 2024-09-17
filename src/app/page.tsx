@@ -4,8 +4,8 @@ import Hero from "./components/Hero/HeroSection";
 import ArticleSection from "./components/ArcticleSection/ArticleSection";
 import SubscriptionForm from "./components/Form/Form";
 import Footer from "./components/Footer/Footer"; 
-import { MultiStepLoaderDemo } from "./components/Benefits/test";
 import "./page.scss";
+import Suscription from "./components/Suscription/Suscription";
 
 
 export default function Home() {
@@ -19,8 +19,8 @@ export default function Home() {
       <Hero />
       <hr className="hr__landing"/>
       <ArticleSection />
+      <Suscription />
       <SubscriptionForm />
-      <MultiStepLoaderDemo />
       <Footer /> 
     </main>
   );
