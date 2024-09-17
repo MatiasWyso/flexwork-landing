@@ -4,8 +4,9 @@ import Hero from "./components/Hero/HeroSection";
 import ArticleSection from "./components/ArcticleSection/ArticleSection";
 import SubscriptionForm from "./components/Form/Form";
 import Footer from "./components/Footer/Footer"; 
-import "./page.scss";
 import Suscription from "./components/Suscription/Suscription";
+import Phrase from "./components/Atoms/Phrase/Phrase";
+import "./page.scss";
 
 
 export default function Home() {
@@ -17,10 +18,11 @@ export default function Home() {
 
       <Navbar />
       <Hero />
-      <hr className="hr__landing"/>
+      {/* <hr className="hr__landing"/> */}
       <ArticleSection />
       <Suscription />
       <SubscriptionForm />
+      <Phrase />
       <Footer /> 
     </main>
   );
