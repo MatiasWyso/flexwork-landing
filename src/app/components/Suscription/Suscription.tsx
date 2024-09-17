@@ -5,7 +5,7 @@ import "./Suscription.scss";
 
 const Suscription = () => {
   return (
-    <section className="Suscription">
+    <section id="suscripcion">
       <div className="Multistep">
         <MultiStepLoaderDemo />
       </div>

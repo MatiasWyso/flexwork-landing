@@ -27,7 +27,7 @@ const SubscriptionForm: React.FC = () => {
 
   return (
     <div className="BG">
-      <form id="suscripcion" onSubmit={handleSubmit}>
+      <form id="info" onSubmit={handleSubmit}>
         <h2 className="gradient-text title-text">¡Anótate!</h2>
         {/* {submitted ? (
           <p className="gracias">¡Gracias por suscribirte!</p>
