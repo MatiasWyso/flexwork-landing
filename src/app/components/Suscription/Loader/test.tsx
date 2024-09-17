@@ -5,22 +5,22 @@ import "./test.scss";
 
 const loadingStates = [
   {
-    text: "Buscar Proyectos a Medida",
+    text: "Encontrar microproyectos",
   },
   {
-    text: "Acceder a Perfiles Detallados",
+    text: "Conectar con empresas globales",
   },
  {
-    text: "Administrar Proyectos y Perfiles",
+    text: "Flexibilidad laboral",
   },
   {
-    text: "Publicar Microproyectos Flexibles",
+    text: "Generar ingresos adicionales",
   },
   {
     text: "Conectar con Talento Especializado",
   },
   {
-    text: "Gestionar Proyectos en Tiempo Real",
+    text: "Desarrollo de nuevas habilidades",
   },
 ];
 
