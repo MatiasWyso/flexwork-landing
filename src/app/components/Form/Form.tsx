@@ -1,11 +1,8 @@
 "use client";
 import React, { useState, ChangeEvent, FormEvent } from "react";
 import { saveSubscription } from "../../firebase/Subscription";
-import TextInput from "../Atoms/Input/TextInput/TextInput";
-import ButtonInput from '../Atoms/Input/ButtonInput/ButtonInput';
 import "./Form.scss";
-import PhoneInput from "../Atoms/Input/PhoneInput/PhoneInput";
-import NameInput from "../Atoms/Input/NameInput/NameInput";
+
 import Button from "../Atoms/ButtonMain/ButtonMain";
 
 const SubscriptionForm: React.FC = () => {

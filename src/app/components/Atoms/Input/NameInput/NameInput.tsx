@@ -12,6 +12,7 @@ interface TextInputProps {
 const NameInput: React.FC<TextInputProps> = ({label, value, onChange, type = "text", required = true}) => {
   return (
     <div className={styles.inputGroup}>
+      <label className={styles.userLabel}>{label}</label>
       <input
         type={type}
         value={value}
@@ -19,7 +20,6 @@ const NameInput: React.FC<TextInputProps> = ({label, value, onChange, type = "te
         required={required}
         className={styles.input}
       />
-      <label className={styles.userLabel}>{label}</label>
     </div>
   );
 };

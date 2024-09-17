@@ -2,11 +2,10 @@
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/HeroSection";
 import ArticleSection from "./components/ArcticleSection/ArticleSection";
-import SubscriptionForm from "./components/Form/Form";
+import Info from "./components/Info/Info";
 import Footer from "./components/Footer/Footer"; 
-import Suscription from "./components/Suscription/Suscription";
-import Phrase from "./components/Atoms/Phrase/Phrase";
 import "./page.scss";
+import Suscription from "./components/Suscription/Suscription";
 
 
 export default function Home() {
@@ -18,11 +17,14 @@ export default function Home() {
 
       <Navbar />
       <Hero />
+
       <hr className="hr__landing"/> 
+
+      
+
       <ArticleSection />
       <Suscription />
-      <SubscriptionForm />
-      <Phrase />
+      <Info />
       <Footer /> 
     </main>
   );

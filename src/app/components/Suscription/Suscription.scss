@@ -1,6 +1,10 @@
 #suscripcion {
 display: flex;
 width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: radial-gradient(circle at 0 100%, rgba(59, 218, 178, 0.13), rgba(255, 255, 255, 0.01) 90%);
+    mask-image: linear-gradient(0deg, transparent, rgb(0, 0, 0) 70px, rgb(0, 0, 0) calc(100% - 80px), transparent);
+
 }
 
 .Multistep {
@@ -9,4 +13,19 @@ width: 100%;
 
 .Form {
     width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+@media (max-width: 768px) {
+    #suscripcion {
+      flex-direction: column; 
+    }
+  
+    .Multistep,
+    .Form {
+      width: 100%; 
+    }
+  }
