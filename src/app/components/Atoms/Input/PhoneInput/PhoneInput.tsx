@@ -12,6 +12,7 @@ interface PhoneInputProps {
 const PhoneInput: React.FC<PhoneInputProps> = ({ label, value, onChange, type = "text", required = true }) => {
   return (
     <div className={styles.inputGroup}>
+        <label className={styles.userLabel}>{label}</label>
       <input
         type={type}
         value={value}
@@ -19,7 +20,6 @@ const PhoneInput: React.FC<PhoneInputProps> = ({ label, value, onChange, type = 
         required={required}
         className={styles.input}
       />
-      <label className={styles.userLabel}>{label}</label>
     </div>
   );
 };

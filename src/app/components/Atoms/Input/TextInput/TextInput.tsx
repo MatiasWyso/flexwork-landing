@@ -11,7 +11,8 @@ interface TextInputProps {
 
 const TextInput: React.FC<TextInputProps> = ({label, value, onChange, type = "text", required = true}) => {
   return (
-    <div className={styles.inputGroup}>
+    <div className="input-wrap">
+      <label className={styles.userLabel}>{label}</label>
       <input
         type={type}
         value={value}
@@ -19,7 +20,6 @@ const TextInput: React.FC<TextInputProps> = ({label, value, onChange, type = "te
         required={required}
         className={styles.input}
       />
-      <label className={styles.userLabel}>{label}</label>
     </div>
   );
 };
