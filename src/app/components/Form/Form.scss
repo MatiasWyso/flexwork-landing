@@ -1,13 +1,15 @@
 .BG {
-  background-image: url("/bg.png");
-  background-size: cover;
+  background-image: url("/esfera-form.png");
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   display: flex;
+  
   justify-content: center;
   align-items: center;
   margin-top: 5rem;
-  height: 60rem;
+  height: 70rem;
+  mask-image: linear-gradient(0deg, transparent, rgb(0, 0, 0) 250px, rgb(0, 0, 0) calc(100% - 100px), transparent);
 
   @media (min-width: 1024px) {
     padding-top: 13rem;

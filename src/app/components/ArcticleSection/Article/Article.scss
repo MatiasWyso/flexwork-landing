@@ -5,6 +5,11 @@
   align-items: center;
   width: 100%;
   gap: 2rem; 
+  
+
+
+  
+
 
   .card {
     height: 100px; 
@@ -24,8 +29,11 @@
       justify-content: center;
 
       img {
-        height: 2.8rem; 
+        height: 2.5rem; 
         object-fit: contain;
+        
+
+       
       }
     }
 
@@ -38,12 +46,14 @@
       h2 {
         font-size: var(--font-size-normal);
         color: white;
+        padding-right:5px ;
       }
 
       p {
         font-size: var(--font-size-small); 
         color: var(--text-primary);
         text-align: center;
+        
       }
     }
   }
@@ -105,4 +115,35 @@
       }
     }
   }
+}
+
+
+
+
+
+// Definir la animación para mover las líneas diagonales
+@keyframes moving-lines {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 100px 100px; // Ajusta según la velocidad del movimiento
+  }
+}
+
+// Clase para aplicar la animación al hover
+.hover-animate-moving-lines {
+  &:hover {
+    animation: moving-lines 1s linear infinite; // Duración de 1 segundo
+  }
+}
+
+// Clase para crear el fondo de líneas diagonales con imágenes
+.bg-pattern-diagonal-lines-left {
+  background-image: image-set(
+    url('/public/diagonal-lines-left-16x16.png') 1x,
+   
+  );
+  background-size: 16px 16px; // Ajusta el tamaño de las líneas si es necesario
+  background-repeat: repeat;
 }

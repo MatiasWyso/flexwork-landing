@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.scss";
 import Button from "../Atoms/ButtonReflex/ButtonReflex";
+import ButtonMain from "../Atoms/ButtonMain/ButtonMain"
 import Brand from "./HeroBrand/HeroBrand";
 
 const Hero: React.FC = () => {
@@ -19,7 +20,7 @@ const Hero: React.FC = () => {
         </div>
 
         <div className="hero__button">
-          <Button />
+          <ButtonMain />
         </div>
       </div>
 

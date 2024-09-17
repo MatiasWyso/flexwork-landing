@@ -27,8 +27,7 @@ img{
   --primary-color: #fafafa;
   --second-color: #4DC5AC;
   --third-color: #5148C0;
-  --default-color: #003912;
-  --default-color-light: #19aa64;
+  --default-color: #9B9B9B;
 
 
   //% COLOR:
@@ -59,7 +58,7 @@ img{
   //% FONT WEIGHT:
   --font-weight-small: light;
   --font-weight-normal: normal;
-  --font-weight-medium: semi-bold;
+  --font-weight-medium: 600;
   --font-weight-large: bold;
 
   //% GRADIENT:
@@ -82,6 +81,7 @@ img{
   width: 100%;
   border: 0;
   border-bottom: 1px solid var(--border-primary);
+  mask-image: linear-gradient(2deg, transparent, rgb(255, 255, 255) 30px, rgb(255, 255, 255) calc(100% - 30px), transparent);
   
  
 }
