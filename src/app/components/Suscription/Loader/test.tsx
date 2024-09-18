@@ -29,7 +29,7 @@ export function MultiStepLoaderDemo() {
   return (
     <div className="loader-container">
       <div className="loader-title">
-        <h2>¿Por que Elegirnos?</h2>
+        <h2>¿Por qué elegirnos?</h2>
       </div>
       <div className="loader-wraper">
         <Loader

@@ -4,6 +4,7 @@ import Button from "../Atoms/ButtonReflex/ButtonReflex";
 import ButtonMain from "../Atoms/ButtonMain/ButtonMain";
 import Brand from "./HeroBrand/HeroBrand";
 
+
 const Hero: React.FC = () => {
   return (
     <section className="hero__wrap">

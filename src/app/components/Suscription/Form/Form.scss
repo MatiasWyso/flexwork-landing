@@ -15,9 +15,19 @@
     gap: 10px;
     padding: 20px;
     border-radius: 20px;
+    
     // background-color: rgba(0, 0, 0, 0);
     // background-image: radial-gradient(circle at 0 100%, rgba(59, 218, 178, 0.13), rgba(255, 255, 255, 0.01) 90%);
     height: 60%;
+    @media (max-width: 460px) {
+        font-size: 16px;
+        }
+    
+}
+
+
+.gracias{
+    font-size: var(--font-size-medium);
 }
 
 .input-group > * {
@@ -41,4 +51,10 @@
     justify-content: left; 
     width: 100%;
     margin-top: 20px; 
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        justify-content: center;
+    }
 }
