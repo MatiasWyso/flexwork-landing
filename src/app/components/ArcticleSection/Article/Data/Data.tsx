@@ -13,7 +13,7 @@ export const ArticleData = [
     {
         icon:"/school.png",
         title: "+20",
-        text: "Areas de Especialización"
+        text: "Áreas de Especialización"
     },
     {
         icon:"/edit.png",
